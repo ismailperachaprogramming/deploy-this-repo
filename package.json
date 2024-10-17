@@ -2,14 +2,15 @@
 	"name": "client-db",
 	"version": "0.0.1",
 	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
-	},
-	 "engines": {
+"scripts": {
+  "start": "vite preview --port $PORT",  // Use Vite's preview mode for production
+  "dev": "vite dev",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "prettier --check . && eslint .",
+  "format": "prettier --write ."
+},
+	"engines": {
     "node": "20.x",
     "npm": "10.x"
   },
