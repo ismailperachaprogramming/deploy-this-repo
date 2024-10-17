@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 "scripts": {
-  "start": "vite preview --port $PORT",  // Use Vite's preview mode for production
+  "start": "vite preview --port $PORT",  
   "dev": "vite dev",
   "build": "vite build",
   "preview": "vite preview",
